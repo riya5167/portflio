@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya-Portfolio</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0c1844;
+    color: #fff5e1;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    font-size: 1.6rem;
+}
+
+nav{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    height: 87px;
+    background-color: #c80036;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff5e1;     
+}
+nav ul li a:hover {
+   color: #ff6969; 
+   font-size: 1.02rem  ;
+}
+
+
+.firstSection{
+    margin: 80px;
+    height: 70vh;
+
+}
+
+.leftSection{ 
+    font-size: 3rem;
+    margin: 70px;
+}
+
+.rightSetion{
+    
+}
+
+
+.webDev-png{
+    width: 30vw;
+}
+
+.pink{
+    color: #ff6969;
+}
+
+#element{
+    color: #ff6969;
+}
+ 
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #c80036;
+    margin:32px 87px ;
+}
+
+.secondSection{
+    max-width: 80vw;
+    height: 60vh;
+    margin: auto;
+}
+
+.secondSection h1{
+    font-size: 2rem;
+}
+
+.secondSection .HorizontalLine{
+    background-color: #fff5e1;
+    width: 80hw;
+    height: 2px;
+    margin: 100px 0px;
+}
+
+.verticalLine{
+    background-color: #fff5e1;
+    width: 2px;
+    height: 100px;
+}
+
+.skill-logo{
+    width: 76px;
+    position: relative;
+    top: -88px;
+    left: -37px;
+}
+.vertical-title{
+    position: relative;
+    top: 20px;
+    width: 140px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 21px;
+    width: 150px;
+    font-size: 10px;
+}
+
+.third-section{
+    height: 60vh;
+    margin: 80px;
+    font-size: 1.5rem;
+}
+
+.third-section-right{
+    text-align: center;
+    margin: 40px;  
+}
+
+.project-image{
+    width: 40vw;
+}
+
+footer{
+    background-color: #060d25;
+    height: 300px;
+    color: grey;
+    padding: 22px;
+}
+
+.footer{
+   padding: 23px 122px;
+}
+footer .copyright{
+    text-align: center;
+}
+
+.third-section button{
+    margin: 20px;
+}
+
+.third-section button a{
+    text-decoration: none;
+    color: #fff5e1;
+}
+
+.btn:hover{
+    background-color: #c80036;
+    font-size: 1.03rem;
+}
+
+.firstSection .button button a{
+    text-decoration: none;
+    color: #fff5e1;
+}
+    </style>
+    
+
+    
+   
+
+</head>
+<body>
+    <header>
+        <nav class="flex justify-around items-center">
+            <div class="logo left">Riya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection flex justify-between items-center">
+            <div class="leftSection">
+                Hi, My name is 
+                <div class="pink">Riya Kumari</div>
+                <div>and I'm a passionate
+                    <br>
+                    <span id="element"></span>
+                    <div class="button">
+                        <button class="btn" ><a href="https://drive.google.com/file/d/1Ka3uadDIzGKM4G5oyPZsUxfat18YS05R/view?usp=drive_link">Resume</a></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rightSection">
+                <img class="webDev-png" src="https://tse4.mm.bing.net/th?id=OIP.Lb1dWaJjw94ma2y6T9g3kwHaHa&pid=Api&P=0&h=220" alt="Web Dev image" height="400">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="pink">What I have learnt so far</span>
+            <h1>Skills</h1>
+
+            <div class="HorizontalLine flex flex-row justify-around">
+                <div class="verticalLine">
+                    <img class="skill-logo" src="https://tse2.mm.bing.net/th?id=OIP.sxgAuWLSIvPXh0cZ2bmQvgHaIj&pid=Api&P=0&h=220" alt="Html Logo" height="70">
+                    <div class="vertical-title">HTML (15 Day's)</div>
+                    <div class="vertical-desc">I enjoy learning HTML because it allows me to create and design web pages, bringing my ideas to life on the internet.</div>
+
+                </div>
+                <div class="verticalLine">
+                    <img class="skill-logo" src="https://tse3.mm.bing.net/th?id=OIP.rrSjg3-z-iVyjHW0OHpcSwHaIn&pid=Api&P=0&h=220" alt="C Logo" height="70">
+                    <div class="vertical-title">C (3 Month's)</div>
+                    <div class="vertical-desc">I enjoy learning C language because it provides a strong foundation in programming, allowing me to write efficient and powerful code for various applications.</div>
+                </div>
+                <div class="verticalLine">
+                    <img class="skill-logo" src="https://tse1.mm.bing.net/th?id=OIP.jcBdogNBRb_xj26KZe1LtAHaHa&pid=Api&P=0&h=220" alt="CSS Logo"height="70">
+                    <div class="vertical-title">CSS (20 Day's)</div>
+                    <div class="vertical-desc">I enjoy learning CSS because it enables me to style and enhance web pages, making them visually appealing and interactive.</div>
+                </div>
+                <div class="verticalLine">
+                    <img class="skill-logo" src="https://tse3.mm.bing.net/th?id=OIP.gtfHQt5ixgnP-xzJHMesRAHaHa&pid=Api&P=0&h=220" alt="C++ Logo" height="70">
+                    <div class="vertical-title">C++ (6 Month's)</div>
+                    <div class="vertical-desc">Studying C++ is fascinating as it enables me to understand object-oriented programming, create complex applications, and improve my coding skills.</div>
+                </div>
+                <div class="verticalLine">
+                    <img class="skill-logo" src="https://tse1.mm.bing.net/th?id=OIP.tWJBwTsb8Sc3s_1ZMzihvgHaHa&pid=Api&P=0&h=220" alt="New Skill Logo" height="100">
+                    <div class="vertical-title">New Skills...</div>
+                    <div class="vertical-desc">Learning new skills in software development and web development excites me because it keeps me updated with the latest technologies and enhances my ability to create innovative solutions and dynamic web applications.</div>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <section class="third-section flex justify-center items-center justify-around" >
+            <div class="third-section-left">
+                <img class="project-image"  src="Screenshot 2024-06-18 231312.png" alt="">
+            </div>
+            <div class="third-section-right" >
+                <h1> Projects Section </h1>
+                <p>This is my first project, in this project, I created a landing page for Desi Fitness adda.</p>
+                <button class="btn">
+                    <a href="https://github.com/riya5167">GitHub Link</a>
+                </button>
+            </div>
+        </section>
+        <hr>
+        <section class="forth-section">
+
+        </section>
+    </main>
+
+    <footer> 
+        <div class="footer flex justify-evenly">
+            <div class="footer-first">
+                <h3 class="logo">Riya's Developer Portfolio</h3>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Help</li>
+                    <li>feedback</li>
+                    <li>More</li>
+                </ul>
+
+            </div>
+            <div class="footer-second">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>LinkdIn</li>
+                    <li>GitHUb</li>
+
+                </ul>
+            </div>
+            <div class="footer-three">
+                <h3>Address</h3>
+                <ul>
+                    <li>Hazaribagh</li>
+                    <li>Palamu</li>
+                    <li>Ranchi</li>
+                    <li>Barkagoan</li>
+                </ul>
+            </div>
+            <div class="footer-four">
+                <h3>Extra support</h3>
+                <ul>
+                    <li>Investment</li>
+                    <li>Travel Guide</li>
+                    <li>Conseling</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy; Copyright | Made with Love | by Riya</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Software Devloper.','Video Editor.','Photographer.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
+ 
